@@ -26,6 +26,7 @@ angular.module('polymath', []).controller('polymathCtrl', ['$scope', '$http', fu
 
   $scope.dotask = function(task,level){
     var topic = $scope.taskToTopicMap[task];
+    $.notify(topic + " +" + level + " EXP!","success");
     $http.get("dotask.php?topic="+topic+"&level="+level);
     updateLevels();
   }
