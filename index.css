@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 20px;
+}
+
+div {
+  margin-bottom: 75px;
+}
+
+table {
+    font-size: 16px;
+}
+
+td {
+    padding: 0px 30px 20px 0px;
+}
+
+span.button {
+    border: 1px solid white;
+    padding: 5px;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+span.button:hover {
+    color: black;
+    background-color: white;
+}
+
+span.button:active {
+    background-color: #00ff00;
+    color: white;
+}
